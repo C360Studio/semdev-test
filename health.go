@@ -28,7 +28,7 @@ func Classify(cpu, mem float64) Status {
 	switch {
 	case pressure >= criticalThreshold:
 		return Unhealthy
-	case pressure > warningThreshold:
+	case pressure >= warningThreshold:
 		return Degraded
 	default:
 		return Healthy
