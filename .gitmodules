@@ -1,3 +1,6 @@
 [submodule "semdev-test-sub"]
 	path = semdev-test-sub
 	url = https://github.com/C360Studio/semdev-test-sub
+[submodule "nested/semdev-test-sub"]
+	path = nested/semdev-test-sub
+	url = https://github.com/C360Studio/semdev-test-sub
